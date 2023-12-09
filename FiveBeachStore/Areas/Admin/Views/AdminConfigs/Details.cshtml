@@ -1,0 +1,85 @@
+﻿@model FiveBeachStore.Models.TbConfig
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>TbConfig</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SiteName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SiteName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Metakey)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Metakey)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Metadesc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Metadesc)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Author)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Author)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Facebook)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Facebook)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Twitter)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Twitter)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Youtube)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Youtube)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Googleplus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Googleplus)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

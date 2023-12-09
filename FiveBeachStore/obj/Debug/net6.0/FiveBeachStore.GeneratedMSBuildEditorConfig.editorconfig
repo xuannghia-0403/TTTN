@@ -1,0 +1,445 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FiveBeachStore
+build_property.RootNamespace = FiveBeachStore
+build_property.ProjectDir = C:\TTTN\NXN-TTTN-2023\FiveBeachStore\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\TTTN\NXN-TTTN-2023\FiveBeachStore
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminBrands/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CcmFuZHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminBrands/Destroy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CcmFuZHNcRGVzdHJveS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminBrands/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CcmFuZHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminBrands/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CcmFuZHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminBrands/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CcmFuZHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminBrands/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5CcmFuZHNcVHJhc2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yeVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminCategory/Destroy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yeVxEZXN0cm95LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminCategory/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yeVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yeVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminCategory/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5DYXRlZ29yeVxUcmFzaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminConfigs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db25maWdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminConfigs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db25maWdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminConfigs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db25maWdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminConfigs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db25maWdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminConfigs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db25maWdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminContacts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db250YWN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminContacts/Destroy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db250YWN0c1xEZXN0cm95LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminContacts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db250YWN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminContacts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db250YWN0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminContacts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db250YWN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminContacts/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Db250YWN0c1xUcmFzaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminHome/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Ib21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminOrders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5PcmRlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminOrders/Destroy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5PcmRlcnNcRGVzdHJveS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminOrders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5PcmRlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminOrders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5PcmRlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminOrders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5PcmRlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminOrders/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5PcmRlcnNcVHJhc2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminPosts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qb3N0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminPosts/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qb3N0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminPosts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qb3N0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminPosts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qb3N0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminPosts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qb3N0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductImages/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0SW1hZ2VzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductImages/Destroy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0SW1hZ2VzXERlc3Ryb3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductImages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0SW1hZ2VzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductImages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0SW1hZ2VzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductImages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0SW1hZ2VzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductImages/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0SW1hZ2VzXFRyYXNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductOptionValues/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0T3B0aW9uVmFsdWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductOptionValues/Destroy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0T3B0aW9uVmFsdWVzXERlc3Ryb3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductOptionValues/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0T3B0aW9uVmFsdWVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductOptionValues/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0T3B0aW9uVmFsdWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductOptionValues/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0T3B0aW9uVmFsdWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductOptionValues/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0T3B0aW9uVmFsdWVzXFRyYXNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductOptiọn/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0T3B0aeG7jW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductOptiọn/Destroy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0T3B0aeG7jW5cRGVzdHJveS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductOptiọn/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0T3B0aeG7jW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductOptiọn/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0T3B0aeG7jW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductOptiọn/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0T3B0aeG7jW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductOptiọn/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0T3B0aeG7jW5cVHJhc2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductSales/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0U2FsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductSales/Destroy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0U2FsZXNcRGVzdHJveS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductSales/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0U2FsZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductSales/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0U2FsZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductSales/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0U2FsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductSales/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0U2FsZXNcVHJhc2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductStores/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0U3RvcmVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductStores/Destroy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0U3RvcmVzXERlc3Ryb3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductStores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0U3RvcmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductStores/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0U3RvcmVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductStores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0U3RvcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProductStores/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0U3RvcmVzXFRyYXNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProducts/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProducts/Destroy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0c1xEZXN0cm95LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProducts/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProducts/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProducts/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminProducts/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Qcm9kdWN0c1xUcmFzaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminRole/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminRole/Destroy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlXERlc3Ryb3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminRole/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminRole/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminRole/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminRole/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Sb2xlXFRyYXNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminTopics/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Ub3BpY3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminTopics/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Ub3BpY3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminTopics/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Ub3BpY3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminTopics/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Ub3BpY3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminTopics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Ub3BpY3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminUsers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc2Vyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminUsers/Destroy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc2Vyc1xEZXN0cm95LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminUsers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc2Vyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminUsers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc2Vyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminUsers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc2Vyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/AdminUsers/Trash.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5Vc2Vyc1xUcmFzaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/Search/ListProductSearchPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2VhcmNoXExpc3RQcm9kdWN0U2VhcmNoUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/Shared/_AdminMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbk1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Views/Home/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Views/Home/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Views/Shared/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Views/Shared/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Areas/Admin/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-jmqn8q2m2g
+
+[C:/TTTN/NXN-TTTN-2023/FiveBeachStore/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ppm44ifwfj

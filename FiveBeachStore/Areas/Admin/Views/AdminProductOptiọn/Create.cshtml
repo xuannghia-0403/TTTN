@@ -1,0 +1,177 @@
+﻿@model FiveBeachStore.Models.TbProductOptiọn
+@{
+    ViewData["Title"] = "THÊM OPTION SẢN PHẨM";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>THÊM OPTION SẢN PHẨM</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item">
+                        <a class="btn btn-warning btn-sm" asp-area="Admin" asp-controller="AdminProductOptiọn" asp-action="Index">
+                            <i class="fas fa-arrow-circle-left">
+                            </i>
+                            Quay về
+                        </a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card card-primary">
+                <div class="card-header">
+                    <h3 class="card-title">Chỉnh sửa danh mục sản phẩm</h3>
+
+                    <div class="card-tools">
+                        <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form asp-area="Admin" asp-controller="AdminProductOptiọn" asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="ProductId" class="control-label"></label>
+                            <input asp-for="ProductId" class="form-control" placeholder="ProductId" />
+                            <span asp-validation-for="ProductId" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Color" class="control-label"></label>
+                            <input asp-for="Color" class="form-control" placeholder="Color" />
+                            <span asp-validation-for="Color" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Memorysize" class="control-label"></label>
+                            <input asp-for="Memorysize" class="form-control" placeholder="Memorysize" />
+                            <span asp-validation-for="Memorysize" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Qty" class="control-label"></label>
+                            <input asp-for="Qty" class="form-control" placeholder="Qty" />
+                            <span asp-validation-for="Qty" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label asp-for="CreatedAt" class="control-label">CreatedAt</label>
+                            <input asp-for="CreatedAt" class="form-control" placeholder="CreatedAt" />
+                            <span asp-validation-for="CreatedAt" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CreatedBy" class="control-label">CreatedBy</label>
+                            <input asp-for="CreatedBy" class="form-control" placeholder="CreatedBy" />
+                            <span asp-validation-for="CreatedBy" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="UpdatedAt" class="control-label">UpdatedAt</label>
+                            <input asp-for="UpdatedAt" class="form-control" placeholder="UpdatedAt" />
+                            <span asp-validation-for="UpdatedAt" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="UpdatedBy" class="control-label">UpdatedBy</label>
+                            <input asp-for="UpdatedBy" class="form-control" placeholder="UpdatedBy" />
+                            <span asp-validation-for="UpdatedBy" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Status">Status</label>
+                            <select asp-for="Status" class="form-control custom-select">
+                                <option selected disabled>Trạng thái</option>
+                                <option>1</option>
+                                <option>2</option>
+                            </select>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-12">
+                                <a class="btn btn-secondary" asp-area="Admin" asp-controller="AdminProductOptiọn" asp-action="Index">Cancel</a>
+                                <input type="submit" value="Create" class="btn btn-success float-right">
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+    </div>
+</section>
+
+@* <h4>TbCategory</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Slug" class="control-label"></label>
+                <input asp-for="Slug" class="form-control" />
+                <span asp-validation-for="Slug" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Metakey" class="control-label"></label>
+                <input asp-for="Metakey" class="form-control" />
+                <span asp-validation-for="Metakey" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Metadesc" class="control-label"></label>
+                <input asp-for="Metadesc" class="form-control" />
+                <span asp-validation-for="Metadesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreatedAt" class="control-label"></label>
+                <input asp-for="CreatedAt" class="form-control" />
+                <span asp-validation-for="CreatedAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreatedBy" class="control-label"></label>
+                <input asp-for="CreatedBy" class="form-control" />
+                <span asp-validation-for="CreatedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UpdatedAt" class="control-label"></label>
+                <input asp-for="UpdatedAt" class="form-control" />
+                <span asp-validation-for="UpdatedAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UpdatedBy" class="control-label"></label>
+                <input asp-for="UpdatedBy" class="form-control" />
+                <span asp-validation-for="UpdatedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+

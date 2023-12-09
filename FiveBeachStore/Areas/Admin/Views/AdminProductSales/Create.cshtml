@@ -1,0 +1,164 @@
+﻿@model FiveBeachStore.Models.TbProductSale
+@{
+    ViewData["Title"] = "THÊM GIÁ SẢN PHẨM SALE";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>THÊM GIÁ SẢN PHẨM SALE</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item">
+                        <a class="btn btn-warning btn-sm" asp-area="Admin" asp-controller="AdminProductSales" asp-action="Index">
+                            <i class="fas fa-arrow-circle-left">
+                            </i>
+                            Quay về
+                        </a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card card-primary">
+                <div class="card-header">
+                    <h3 class="card-title">Chỉnh sửa danh mục sản phẩm</h3>
+
+                    <div class="card-tools">
+                        <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                            <i class="fas fa-minus"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form asp-area="Admin" asp-controller="AdminProductSales" asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="ProductId" class="control-label"></label>
+                            <input asp-for="ProductId" class="form-control" placeholder="ProductId" />
+                            <span asp-validation-for="ProductId" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="PriceSale" class="control-label"></label>
+                            <input asp-for="PriceSale" class="form-control" placeholder="PriceSale" />
+                            <span asp-validation-for="PriceSale" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Qty">Qty</label>
+                            <textarea asp-for="Qty" type="text" class="form-control" rows="4" placeholder="Qty"></textarea>
+                            <span asp-validation-for="Qty" class="text-danger"></span>
+                        </div>
+
+
+                        <div class="form-group">
+                            <label asp-for="NgayBd" class="control-label">NgayBd</label>
+                            <input asp-for="NgayBd" class="form-control" placeholder="NgayBd" />
+                            <span asp-validation-for="NgayBd" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="NgayKt" class="control-label">NgayKt</label>
+                            <input asp-for="NgayKt" class="form-control" placeholder="NgayKt" />
+                            <span asp-validation-for="NgayKt" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label asp-for="Status">Status</label>
+                            <select asp-for="Status" class="form-control custom-select">
+                                <option selected disabled>Trạng thái</option>
+                                <option>1</option>
+                                <option>2</option>
+                            </select>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-12">
+                                <a class="btn btn-secondary" asp-area="Admin" asp-controller="AdminProductSales" asp-action="Index">Cancel</a>
+                                <input type="submit" value="Create" class="btn btn-success float-right">
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+        </div>
+    </div>
+</section>
+
+@* <h4>TbCategory</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Slug" class="control-label"></label>
+                <input asp-for="Slug" class="form-control" />
+                <span asp-validation-for="Slug" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Metakey" class="control-label"></label>
+                <input asp-for="Metakey" class="form-control" />
+                <span asp-validation-for="Metakey" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Metadesc" class="control-label"></label>
+                <input asp-for="Metadesc" class="form-control" />
+                <span asp-validation-for="Metadesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreatedAt" class="control-label"></label>
+                <input asp-for="CreatedAt" class="form-control" />
+                <span asp-validation-for="CreatedAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreatedBy" class="control-label"></label>
+                <input asp-for="CreatedBy" class="form-control" />
+                <span asp-validation-for="CreatedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UpdatedAt" class="control-label"></label>
+                <input asp-for="UpdatedAt" class="form-control" />
+                <span asp-validation-for="UpdatedAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UpdatedBy" class="control-label"></label>
+                <input asp-for="UpdatedBy" class="form-control" />
+                <span asp-validation-for="UpdatedBy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div> *@
+

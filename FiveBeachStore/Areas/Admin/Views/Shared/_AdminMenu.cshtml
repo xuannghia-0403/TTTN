@@ -1,0 +1,190 @@
+﻿
+
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+            <!-- Brand Logo -->
+            <a href="~/AdminAssets/index3.html" class="brand-link">
+                <img src="~/AdminAssets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <span class="brand-text font-weight-light">ADMIN</span>
+            </a>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <!-- Sidebar user (optional) -->
+                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                    <div class="image">
+                        <img src="~/AdminAssets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                    </div>
+                    <div class="info">
+                <a class="d-block" asp-area="Admin" asp-controller="AdminHome" asp-action="Index">FiveBeachStore</a>
+                    </div>
+                </div>
+
+                <!-- SidebarSearch Form -->
+               
+
+                <!-- Sidebar Menu -->
+                <nav class="mt-2">
+                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                        <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-edit"></i>
+                        <p>
+                            Quản lý sản phẩm
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="AdminProducts" asp-action="Index">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Tất cả sản phẩm</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="AdminProductImages" asp-action="Index">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Quản lý Image sản phẩm</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="AdminProductStores" asp-action="Index">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Quản lý số lượng</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="AdminProductSales" asp-action="Index">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Quản lý sản phẩm Sale</p>
+                            </a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="AdminProductOptiọn" asp-action="Index">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Quản lý Option sản phẩm</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="AdminProductOptionValues" asp-action="Index">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Quản lý giá sản phẩm</p>
+                            </a>
+                        </li>
+                        @*  <li class="nav-item">
+                        <a href="../forms/editors.html" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Quản lý tỉnh thành</p>
+                        </a>
+                        </li> *@
+
+                    </ul>
+                </li>                       
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="AdminCategory" asp-action="Index">
+                                <i class="nav-icon fas fa-tachometer-alt"></i>
+                                <p>
+                                    Quản lý danh mục
+                                </p>
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="AdminBrands" asp-action="Index">
+                                <i class="nav-icon fas fa-tachometer-alt"></i>
+                                <p>
+                                    Quản lý banner
+                                </p>
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <i class="nav-icon fas fa-chart-pie"></i>
+                        <p>
+                            Quản lý đơn hàng
+                            <i class="fas fa-angle-left right"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="AdminOrders" asp-action="Index">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Tất cả đơn hàng</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="AdminOrderDetails" asp-action="Index">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Chi tiết đơn hàng</p>
+                            </a>
+                        </li>
+                       
+                       
+
+                    </ul>
+                </li>           
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="nav-icon fas fa-edit"></i>
+                                <p>
+                                    Quản lý hệ thống
+                                    <i class="fas fa-angle-left right"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="AdminUsers" asp-action="Index">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Quản lý tài khoản</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Admin" asp-controller="AdminRole" asp-action="Index">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p >Quản lý quyền truy cập</p>
+                                    </a>
+                                </li>
+                               @*  <li class="nav-item">
+                                    <a href="../forms/editors.html" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Quản lý tỉnh thành</p>
+                                    </a>
+                                </li> *@
+                                
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" asp-area="Admin" asp-controller="AdminPosts" asp-action="Index">
+                        <i class="nav-icon fas fa-table"></i>
+                                <p>
+                                    Quản lý tin tức
+                                </p>
+                            </a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="AdminTopics" asp-action="Index">
+                                <i class="nav-icon fas fa-table"></i>
+                                <p>
+                                    Quản lý chủ đề
+                                </p>
+                            </a>
+
+                        </li>            
+                        <li class="nav-item">
+                             <a class="nav-link" asp-area="Admin" asp-controller="AdminContacts" asp-action="Index">
+                                <i class="nav-icon far fa-envelope"></i>
+                                <p>
+                                    Quản lý liên hệ
+                           
+                                </p>
+                            </a>
+                   
+                </li>
+                    </ul>
+                </nav>
+                <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+        </aside>

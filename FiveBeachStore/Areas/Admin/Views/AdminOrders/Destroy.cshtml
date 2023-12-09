@@ -1,0 +1,91 @@
+﻿@model FiveBeachStore.Models.TbOrder
+
+@{
+    ViewData["Title"] = "Xóa đơn hàng";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>XÓA ĐƠN HÀNG</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item">
+                        <a class="btn btn-warning btn-sm" asp-area="Admin" asp-controller="AdminOrders" asp-action="Index">
+                            <i class="fas fa-arrow-circle-left">
+                            </i>
+                            Quay về
+                        </a>
+                    </li>
+
+
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<div class="card card-primary card-outline" style="margin-left:300px;margin-right:300px;">
+    <div class="card-body box-profile">
+
+        <h3 class="profile-username text-center">@Model.Name</h3>
+        <ul class="list-group list-group-unbordered mb-3">
+            <li class="list-group-item">
+                <b>ID</b> <a class="float-right">@Model.Id</a>
+            </li>
+            <li class="list-group-item">
+                <b>MÃ KHÁCH HÀNG</b> <a class="float-right">@Model.UserId</a>
+            </li>
+
+            <li class="list-group-item">
+                <b>SĐT</b> <a class="float-right">@Model.Phone</a>
+            </li>
+
+            <li class="list-group-item">
+                <b>EMAIL</b> <a class="float-right">@Model.Email</a>
+            </li>
+            <li class="list-group-item">
+                <b>ADDRESS</b> <a class="float-right">@Model.Address</a>
+            </li>
+            <li class="list-group-item">
+                <b>GHI CHÚ</b> <a class="float-right">@Model.Note</a>
+            </li>
+            <li class="list-group-item">
+                <b>CREATED_AT</b> <a class="float-right">@Model.CreatedAt</a>
+            </li>
+
+            <li class="list-group-item">
+                <b>UPDATED_AT</b> <a class="float-right">@Model.UpdatedAt</a>
+            </li>
+            <li class="list-group-item">
+                <b>UPDATED_BY</b> <a class="float-right">@Model.UpdatedBy</a>
+            </li>
+            <li class="list-group-item">
+                <b>Trạng thái</b>
+                @if (Model.Status != 1)
+                {
+                    <a class="float-right">Off</a>
+                }
+                else
+                {
+                    <a class="float-right">On</a>
+                }
+            </li>
+
+        </ul>
+        <div class="row mb-2">
+            <div class="col-sm-5">
+            </div>
+            <form asp-area="Admin" asp-controller="AdminOrders" asp-action="Destroy">
+                <input type="hidden" asp-for="Id" />
+                <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
+
+            </form>
+
+        </div>
+
+    </div>
+    <!-- /.card-body -->
+</div>

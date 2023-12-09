@@ -1,0 +1,81 @@
+﻿@model FiveBeachStore.Models.TbProductStore
+
+@{
+    ViewData["Title"] = "Xóa số lượng sản phẩm";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>XÓA SỐ LƯỢNG SẢN PHẨM</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item">
+                        <a class="btn btn-warning btn-sm" asp-area="Admin" asp-controller="AdminProductStores" asp-action="Index">
+                            <i class="fas fa-arrow-circle-left">
+                            </i>
+                            Quay về
+                        </a>
+                    </li>
+
+
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<div class="card card-primary card-outline" style="margin-left:300px;margin-right:300px;">
+    <div class="card-body box-profile">
+
+        <h3 class="profile-username text-center">@Model.ProductId</h3>
+        <ul class="list-group list-group-unbordered mb-3">
+
+            <li class="list-group-item">
+                <b>SỐ LƯỢNG</b> <a class="float-right">@Model.Qty</a>
+            </li>
+
+            <li class="list-group-item">
+                <b>METADESC</b> <a class="float-right">@Model.Metadesc</a>
+            </li>
+            <li class="list-group-item">
+                <b>CREATED_AT</b> <a class="float-right">@Model.CreatedAt</a>
+            </li>
+            <li class="list-group-item">
+                <b>CREATED_BY</b> <a class="float-right">@Model.CreatedBy</a>
+            </li>
+            <li class="list-group-item">
+                <b>UPDATED_AT</b> <a class="float-right">@Model.UpdatedAt</a>
+            </li>
+            <li class="list-group-item">
+                <b>UPDATED_BY</b> <a class="float-right">@Model.UpdatedBy</a>
+            </li>
+            <li class="list-group-item">
+                <b>Trạng thái</b>
+                @if (Model.Status != 1)
+                {
+                    <a class="float-right">Off</a>
+                }
+                else
+                {
+                    <a class="float-right">On</a>
+                }
+            </li>
+
+        </ul>
+        <div class="row mb-2">
+            <div class="col-sm-5">
+            </div>
+            <form asp-area="Admin" asp-controller="AdminProductStores" asp-action="Destroy">
+                <input type="hidden" asp-for="ProductId" />
+                <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
+
+            </form>
+
+        </div>
+
+    </div>
+    <!-- /.card-body -->
+</div>

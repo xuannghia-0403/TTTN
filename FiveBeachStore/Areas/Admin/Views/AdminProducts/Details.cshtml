@@ -1,0 +1,117 @@
+﻿@model FiveBeachStore.Models.TbProduct
+
+@{
+    ViewData["Title"] = "THÔNG TIN SẢN PHẨM";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>THÔNG TIN SẢN PHẨM</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item">
+                        <a class="btn btn-warning btn-sm" asp-area="Admin" asp-controller="AdminProducts" asp-action="Index">
+                            <i class="fas fa-arrow-circle-left">
+                            </i>
+                            Quay về
+                        </a>
+                    </li>
+
+
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<div class="card card-primary card-outline" style="margin-left:300px;margin-right:300px;">
+    <div class="card-body box-profile">
+
+        <h3 class="profile-username text-center">@Model.Name</h3>
+        <ul class="list-group list-group-unbordered mb-3">
+            <li class="list-group-item">
+                <b>ID</b> <a class="float-right">@Model.Id</a>
+            </li>
+            <li class="list-group-item">
+                <b>SLUG</b> <a class="float-right">@Model.Slug</a>
+            </li>
+            <li class="list-group-item">
+                <b>CATEGORY_ID</b> <a class="float-right">@Model.CategoryId</a>
+            </li>
+            <li class="list-group-item">
+                <b>BRAND_ID</b> <a class="float-right">@Model.BrandId</a>
+            </li>
+            <li class="list-group-item">
+                <b>PRICE</b> <a class="float-right">@Model.Price</a>
+            </li>
+            <li class="list-group-item">
+                <b>PRICE_SALE</b> <a class="float-right">@Model.PriceSale</a>
+            </li>
+            <li class="list-group-item">
+                <b>IMAGE</b> <img height="100" width="100" src="@Model.Image" class="float-right"></img>
+            </li>
+            <li class="list-group-item">
+                <b>QTY</b> <a class="float-right">@Model.Qty</a>
+            </li>
+            <li class="list-group-item">
+                <b>DETAIL</b> <a class="float-right">@Model.Detail</a>
+            </li>
+            <li class="list-group-item">
+                <b>METAKEY</b> <a class="float-right">@Model.Metakey</a>
+            </li>
+            <li class="list-group-item">
+                <b>METADESC</b> <a class="float-right">@Model.Metadesc</a>
+            </li>
+            <li class="list-group-item">
+                <b>CREATED_AT</b> <a class="float-right">@Model.CreatedAt</a>
+            </li>
+            <li class="list-group-item">
+                <b>CREATED_BY</b> <a class="float-right">@Model.CreatedBy</a>
+            </li>
+            <li class="list-group-item">
+                <b>UPDATED_AT</b> <a class="float-right">@Model.UpdatedAt</a>
+            </li>
+            <li class="list-group-item">
+                <b>UPDATED_BY</b> <a class="float-right">@Model.UpdatedBy</a>
+            </li>
+            <li class="list-group-item">
+                <b>Trạng thái</b>
+                @if (Model.Status != 1)
+                {
+                    <a class="float-right">Off</a>
+                }
+                else
+                {
+                    <a class="float-right">On</a>
+                }
+            </li>
+
+        </ul>
+        <div class="row mb-2">
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item">
+                        <a class="btn btn-secondary btn-sm" asp-action="Edit" asp-route-id="@Model.Id">
+                            <i class="fas fa-pencil-alt">
+                            </i>
+                            Edit
+                        </a>
+                    </li>
+                    <a class="btn btn-danger btn-sm" asp-area="Admin" asp-controller="AdminProducts" asp-action="Delete">
+                        <i class="fas fa-trash">
+                        </i>
+                        Delete
+                    </a>
+
+                </ol>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.card-body -->
+</div>

@@ -1,0 +1,133 @@
+﻿@model IEnumerable<FiveBeachStore.Models.TbOrder>
+
+@{
+    ViewData["Title"] = "THÙNG RÁC ĐƠN HÀNG SẢN PHẨM";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>QUẢN LÝ ĐƠN HÀNG</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item">
+                        <a class="btn btn-warning btn-sm" asp-area="Admin" asp-controller="AdminOrders" asp-action="Index">
+                            <i class="fas fa-arrow-circle-left">
+                            </i>
+                             Quay về
+                        </a>
+                    </li>
+                   
+
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+
+<!-- Main content -->
+<section class="content">
+
+    <!-- Default box -->
+    <div class="card">
+        <div class="card-header">
+            <div class="card-tools">
+                <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+                    <i class="fas fa-minus"></i>
+                </button>
+
+            </div>
+        </div>
+        <div class="card-body p-0">
+            <table class="table table-striped projects">
+                <thead>
+                    <tr>
+                        <th style="width: 1%">
+                            #
+                        </th>
+
+                        <th style="width: 24%">
+                            Tên đơn hàng
+                        </th>
+                        <th style="width: 20%">
+                            Mã khách hàng
+                        </th>
+                        <th style="width: 35%">
+                            Ngày tạo
+                        </th>
+                       
+                        <th class="text-center" style="width:29%">
+                            Chức năng
+                        </th>
+                        <th style="width: 1%">
+                            Mã
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null)
+                    {
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    <input type="checkbox" />
+                                </td>
+
+                                <td>
+                                    <a>
+                                        @item.Name
+                                    </a>
+                                    <br />
+
+                                </td>
+
+                                <td>
+                                    <a>
+                                        @item.UserId
+                                    </a>
+                                    <br />
+
+                                </td>
+                                <td>
+                                    <a>
+                                        @item.CreatedAt
+                                    </a>
+                                    <br />
+
+                                </td>
+                                <td class="project-actions text-right">
+                                    <a class="btn btn-info btn-sm" asp-area="Admin" asp-controller="AdminOrders" asp-action="Restore" asp-route-id="@item.Id">
+                                        <i class="fas fa-undo">
+                                        </i>
+                                        Restore
+                                    </a>
+                                    <a class="btn btn-danger btn-sm" asp-area="Admin" asp-controller="AdminOrders" asp-action="Destroy" asp-route-id="@item.Id">
+                                        <i class="fas fa-trash">
+                                        </i>
+                                        Destroy
+                                    </a>
+                                </td>
+                                <td>
+                                    <a>
+                                        @item.Id
+                                    </a>
+                                    <br />
+
+                                </td>
+                            </tr>
+                        }
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+
+</section>

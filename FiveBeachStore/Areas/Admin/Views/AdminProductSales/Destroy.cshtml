@@ -1,0 +1,77 @@
+﻿@model FiveBeachStore.Models.TbProductSale
+
+@{
+    ViewData["Title"] = "Xóa giá sản phẩm sale";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+            <div class="col-sm-6">
+                <h1>XÓA GIÁ SẢN PHẨM SALE</h1>
+            </div>
+            <div class="col-sm-6">
+                <ol class="breadcrumb float-sm-right">
+                    <li class="breadcrumb-item">
+                        <a class="btn btn-warning btn-sm" asp-area="Admin" asp-controller="AdminProductSales" asp-action="Index">
+                            <i class="fas fa-arrow-circle-left">
+                            </i>
+                            Quay về
+                        </a>
+                    </li>
+
+
+                </ol>
+            </div>
+        </div>
+    </div><!-- /.container-fluid -->
+</section>
+<div class="card card-primary card-outline" style="margin-left:300px;margin-right:300px;">
+    <div class="card-body box-profile">
+
+        <h3 class="profile-username text-center">@Model.ProductId</h3>
+        <ul class="list-group list-group-unbordered mb-3">
+
+
+
+            <li class="list-group-item">
+                <b>GIÁ SALE</b> <a class="float-right">@Model.PriceSale</a>
+            </li>
+            <li class="list-group-item">
+                <b>SỐ LƯỢNG</b> <a class="float-right">@Model.Qty</a>
+            </li>
+
+            <li class="list-group-item">
+                <b>NGÀY BĐ</b> <a class="float-right">@Model.NgayBd</a>
+            </li>
+            <li class="list-group-item">
+                <b>NGÀY KT</b> <a class="float-right">@Model.NgayKt</a>
+            </li>
+            <li class="list-group-item">
+                <b>Trạng thái</b>
+                @if (Model.Status != 1)
+                {
+                    <a class="float-right">Off</a>
+                }
+                else
+                {
+                    <a class="float-right">On</a>
+                }
+            </li>
+
+        </ul>
+        <div class="row mb-2">
+            <div class="col-sm-5">
+            </div>
+            <form asp-area="Admin" asp-controller="AdminProductSales" asp-action="Destroy">
+                <input type="hidden" asp-for="ProductId" />
+                <input type="submit" value="Xác nhận xóa" class="btn btn-danger" />
+
+            </form>
+
+        </div>
+
+    </div>
+    <!-- /.card-body -->
+</div>
